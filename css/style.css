@@ -1,0 +1,50 @@
+.navbar .navbar-brand {
+  color: #b13242;
+  font-weight: 500;
+}
+
+#header {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('../img/header-bg.jpg') center center/cover no-repeat;
+}
+
+#header h1 {
+  color: #fff;
+  font-size: 3em;
+}
+
+#header .descr {
+  color: #fff;
+}
+
+#more {
+  background-color: #343a40;
+  color: #fff;
+}
+
+#more h2 {
+  font-size: 50px;
+}
+
+#more .more-descr {
+  font-size: 18px;
+}
+
+#connect {
+  color: #6c757d;
+}
+
+#connect ul {
+  list-style-type: none;
+}
+
+#connect ul li:before {
+  content: '\2714';
+  position: absolute;
+  left: -60px;
+}
+
+#footer {
+  background-color: #343a40;
+  color: #fff;
+}
